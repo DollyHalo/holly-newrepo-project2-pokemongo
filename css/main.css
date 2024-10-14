@@ -77,6 +77,22 @@ html {
   
 }
 
+header { 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  border-bottom: 1px solid #808080
+}
+
+
+
 
 @media (max-width: 999px) {
   .main-nav {
