@@ -126,6 +126,7 @@ h1 {
 }
 .zebra-forms-items {
   display: flex;
+
 }
 
 @media (min-width: 800px) {
@@ -133,6 +134,8 @@ h1 {
     font-size: 4rem;
   }
 }
+
+
 
 img { 
   width: 100%
