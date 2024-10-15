@@ -63,6 +63,7 @@ button {
     width: 100%;
     margin-top: 50px;
     margin-bottom: 20px;
+    
 }
 </style>
 
@@ -87,7 +88,7 @@ header {
   padding-top: 8px;
   position: sticky;
   top: 0;
-  background-color: #ffffff;
+  background-color: #eecdf5;
   border-bottom: 1px solid #808080
 }
 
@@ -104,7 +105,7 @@ header {
   display: none;
   flex-direction: column;
   align-items: center;
-  background-color: yellow;
+  background-color: #ffdd3f;
   position: absolute;
   top: 132px;
   left: 0;
@@ -146,6 +147,10 @@ img {
 }
 
 
+h4 {
+  size: 16px;
+}
+
 * {box-sizing: border-box}
 
 /* Full-width input fields */
@@ -178,10 +183,15 @@ button {
   cursor: pointer;
   width: 100%;
   opacity: 0.9;
+  
 }
 
 button:hover {
   opacity:1;
+}
+
+.form-buttons {
+  display: flex;
 }
 
 /* Extra styles for the cancel button */
@@ -190,10 +200,9 @@ button:hover {
   background-color: #f44336;
 }
 
-/* Float cancel and signup buttons and add an equal width */
+/* cancel and signup buttons and add an equal width */
 .cancelbtn, .signupbtn {
-  float: left;
-  width: 50%;
+  display: flex;
 }
 
 /* Add padding to container elements */
@@ -201,12 +210,7 @@ button:hover {
   padding: 16px;
 }
 
-/* Clear floats */
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
+
 
 /* Change styles for cancel button and signup button on extra small screens */
 @media screen and (max-width: 300px) {
