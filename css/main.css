@@ -12,11 +12,11 @@ body {
 
 /* Styling the Form (Color, Padding, Shadow) */
 form {
-    background-color: #fff;
+    background-color: #adf3a5;
     max-width: 500px;
     margin: 50px auto;
     padding: 30px 20px;
-    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 5px 10px rgba(124, 2, 143, 0.5);
 }
 
 /* Styling form-control Class */
@@ -87,7 +87,7 @@ header {
   padding-top: 8px;
   position: sticky;
   top: 0;
-  background-color: #fff;
+  background-color: #ffffff;
   border-bottom: 1px solid #808080
 }
 
